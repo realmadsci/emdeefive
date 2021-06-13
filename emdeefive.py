@@ -14,7 +14,7 @@ try:
         print(hash)
 
         if hash == 'fc8767a5e9e2382a17072b10725e1c8b':
-            print('You win!')
+            print('flag{6d0007e52f7afb7d5a0650b0ffb8a4d1}')
             break
 except (EOFError, KeyboardInterrupt):
     pass
