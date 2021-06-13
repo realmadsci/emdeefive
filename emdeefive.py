@@ -12,5 +12,9 @@ try:
         hash = m.digest().hex()
 
         print(hash)
+
+        if hash == 'fc8767a5e9e2382a17072b10725e1c8b':
+            print('You win!')
+            break
 except (EOFError, KeyboardInterrupt):
     pass
